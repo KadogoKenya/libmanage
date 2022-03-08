@@ -117,24 +117,24 @@ WSGI_APPLICATION = 'library.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'library',
-        'USER': 'kate',
-        'PASSWORD':'Kanini12',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'library',
+#         'USER': 'kate',
+#         'PASSWORD':'Kanini12',
+#     }
+# }
 
 # Cloud_name=dew5ge1ch
 # API_Key=361751723152852
 # API_Secret=l2VlpcjUV6Nk9Gh9qi5UCwqDyZ4
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'dew5ge1ch',
-    'API_KEY': '361751723152852',
-    'API_SECRET': 'l2VlpcjUV6Nk9Gh9qi5UCwqDyZ4'
-}
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': 'dew5ge1ch',
+#     'API_KEY': '361751723152852',
+#     'API_SECRET': 'l2VlpcjUV6Nk9Gh9qi5UCwqDyZ4'
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
